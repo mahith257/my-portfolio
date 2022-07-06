@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+body {
+    background-color: #0a192f !important;
+    color: #8892b0 !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    padding-bottom: 5px;
+}
+
+.brand {
+    margin-right: auto; 
+    color: #64ffda;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Splash', cursive;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #8892b0;
+    margin-left: 30px;
+}
+
+.nav-items a:hover {
+    color: #64ffda;
+}
+
+.resume {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #64ffda !important;
+    border: 1px solid #64ffda;
+    padding: 5px 8px;
+    border-radius: 4px;
+    background-color: #0a192f;
+}
+
+/* .side-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #0a192f;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    width: 90px;
+    height: 1500px;
+    padding-top: 1200px;
+} */
+
+.side-nav a {
+    text-decoration: none;
+    color: #8892b0;
+    margin-top: 30px;
+}
+
+.side-nav a:hover {
+    color: #64ffda;
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.accordion-item {
+    background-color: #0a192f !important;
+    color: #8892b0 !important;
+    border: 0 !important; 
+}
+
+.accordion-button {
+    background-color: #0a192f !important;
+    color: #64ffda !important;
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  }
+
+ul li {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #64ffda;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.project-img {
+    width: 500px;
+    height: 260px;
+    border-radius: 4px;
+}
+
+.project {
+    margin: 50px 0;
+}
+
+.project-description {
+    margin-left: 50px;
+}
+
+.contact-icons {
+    text-decoration: none;
+    color: #8892b0;
+    margin-right: 20px;
+    font-size: 50px;
+}
+
+.contact-icons:hover {
+    color: #64ffda;
+}

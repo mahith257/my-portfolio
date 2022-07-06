@@ -184,15 +184,15 @@ ul li::before {
     }
 
     .about {
-        padding: 60px !important;
+        padding: 60px 5px !important;
     }
 
     .experience {
-        padding: 60px !important;
+        padding: 60px 5px !important;
     }
 
     .projects {
-        padding: 60px !important;
+        padding: 60px 5px !important;
     }
 }
 

@@ -130,6 +130,10 @@ ul li::before {
     border-radius: 4px;
 }
 
+.project-img:hover {
+    opacity: 0.9;
+}
+
 .project {
     margin: 50px 0;
 }

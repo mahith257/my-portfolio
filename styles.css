@@ -120,6 +120,7 @@ ul li {
     list-style-type: none;
     font-size: large;
     color: #64ffda;
+    letter-spacing: 1px;
 }
 
 ul li::before {

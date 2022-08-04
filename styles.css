@@ -113,6 +113,13 @@ body {
 
 ul li {
     list-style-type: none;
+    /* font-weight: bold; */
+}
+
+.about ul li{
+    list-style-type: none;
+    font-size: large;
+    color: #64ffda;
 }
 
 ul li::before {
@@ -123,6 +130,7 @@ ul li::before {
     width: 1em;
     margin-left: -1em;
 }
+
 
 .project-img {
     width: 500px;
@@ -136,10 +144,14 @@ ul li::before {
 
 .project {
     margin: 50px 0;
+    display: flex;
+    gap: 50px;
 }
 
 .project-description {
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: column !important;
 }
 
 .contact-icons {
@@ -151,6 +163,27 @@ ul li::before {
 
 .contact-icons:hover {
     color: #64ffda;
+}
+
+.project-links {
+    margin-top: auto;
+    display: flex;
+    margin-left: 15px;
+    gap: 50px;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+    padding: 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.project-links a:hover {
+    color: #64ffda; 
+    /* background-color: #64ffda; */
 }
 
 @media(max-width: 772px){
@@ -171,6 +204,7 @@ ul li::before {
     .project {
         flex-direction: column;
         margin-top: 10px;
+        gap:10px;
     }
 
     .nav-dropdown{

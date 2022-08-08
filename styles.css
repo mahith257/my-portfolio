@@ -183,8 +183,9 @@ ul li::before {
 }
 
 .project-links a:hover {
-    color: #64ffda; 
-    /* background-color: #64ffda; */
+    color: black;
+    font-weight: bold;
+    background-color: #64ffda;
 }
 
 @media(max-width: 772px){
